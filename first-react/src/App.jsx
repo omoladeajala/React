@@ -1,7 +1,14 @@
-import React from "react":
+import React from "react";
 import ReactDOM from "react-dom";
 
-React.DOM.render( <h1>My favourite food is</h1>, document.getElementById("root")
+ReactDOM.render(
+  <div>
+    <h1>My favourite food is</h1>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>,
+  document.getElementById("root")
 );
-
-https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/17038694#overview
