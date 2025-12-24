@@ -1,7 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 
-ReactDOM.render(
+const container = document.getElementById("root");
+const root = createRoot(container);
+
+root.render(
   <div>
     <h1>My Favourite Food</h1>
     <ul>
@@ -10,4 +13,4 @@ ReactDOM.render(
       <li>Chicken</li>
     </ul>
   </div>
-     document.getElementById("root"));
+);
