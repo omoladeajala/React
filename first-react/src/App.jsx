@@ -1,9 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-function Heading() {
-  return <h1>My Favourite Foods</h1>;
-}
+import Heading from "./Heading";
 
 ReactDOM.render(
   <div>
